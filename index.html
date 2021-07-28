@@ -16,6 +16,11 @@
     <!-- Font Awesome Script File -->
     <script src="https://kit.fontawesome.com/7c2e39d7d1.js" crossorigin="anonymous"></script>
 
+    <!-- Google Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,7 +46,7 @@
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <button class="btn btn-warning me-2" type="button">Login</button>
+                                <button class="btn honda-btn text-white me-2" type="button">Login</button>
                             </li>
 
                         </ul>
@@ -52,15 +57,58 @@
             <!-- Navbar End -->
 
             <!-- Heading Section Start -->
-            <section class="container d-flex my-3">
-                <div class="m-5">
-                    <p>Computer-controlled digital transistorized with electronic advance</p>
-                    <h1>Honda CBR 300R</h1>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-                <div class="mb-5">
-                    <img src="images/header-bike.png" alt="Honda CBR 300R">
+            <section class="container">
+
+                <div class="row p-5 d-flex align-items-center">
+                    <div class="col-lg-6 py-5 ">
+                        <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+
+                        <h1 class="fw-bold text-white ">Honda CBR 300R</h1>
+
+                        <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            Velit officia consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                        <div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn honda-btn text-white " data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Purchase
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Ready for purchase</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h3>Honda CBR 300R</h3>
+                                            <p>This is new Honda CBR 300R. If you’ve got a soft spot for sportbike
+                                                design
+                                                and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot
+                                                between form and function. It’s narrow, light, and a total blast to ride
+                                                around town and on twisty back roads. </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">No</button>
+                                            <button type="button" class="btn honda-btn">Confirm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 py-5">
+                        <img src="images/header-bike.png" height="447px" width="
+            552px" class="img-fluid ms-lg-5" alt="">
+                    </div>
                 </div>
             </section>
             <!-- Heading Section End -->
@@ -74,24 +122,94 @@
     <main>
         <!-- Feature Section Start -->
 
-        <h1 class="text-center mt-5">Fetured Bikes 2021</h1>
-        <p class="text-center">Best bike collection</p>
+        <section class="container p-5 mb-5">
+            <div class="text-center">
+                <h1 class="fw-bold">Fetured Bikes 2021</h1>
+                <p class="honda-text-color">Best bike collection</p>
+            </div>
 
-        <!-- Featured Bike Image Section Start-->
-        <section class="container d-flex m-5">
-            <div class="m-5"><img class="" height="243px" width="288px" src="images/feature-bike.jpg"
-                    alt="Feature Bike">
-            </div>
-            <div class="m-5"><img class="" height="243px" width="288px" src="images/feature-bike.jpg"
-                    alt="Feature Bike">
-            </div>
-            <div class="m-5"><img class="" height="243px" width="288px" src="images/feature-bike.jpg"
-                    alt="Feature Bike">
+            <div class="row p-5 ">
+                <div class="col-lg-4">
+                    <img src="images/feature-bike.jpg" class="img-gray" width="
+                    288px" height="243px" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/feature-bike.jpg" width="
+                    288px" height="243px" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/feature-bike.jpg" class="img-gray" width="
+                    288px" height="243px" alt="">
+                </div>
             </div>
         </section>
-        <!-- Featured Bike Image Section End-->
 
         <!-- Feature Section End -->
+
+        <!-- Latest Section Start -->
+
+        <section class="container mb-5 p-5">
+            <div class="text-center">
+                <h1 class="fw-bold mb-5">Latest News</h1>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-sm rounded-3">
+                        <div class="bg-secondary rounded-3 m-2">
+                            <img src="images/bike-1.png" height="256px" width="
+                            337px" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class=" justify-content-start align-items-center p-3">
+
+                            <button type="button" class="btn honda-btn text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm rounded-3">
+                        <div class="bg-secondary rounded-3 m-2">
+                            <img src="images/bike-2.png" height="256px" width="
+                            337px" class="card-img-top " alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Motorcycles & Scooters</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class=" justify-content-start align-items-center p-3">
+
+                            <button type="button" class="btn honda-btn text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm rounded-3">
+                        <div class="bg-secondary rounded-3 m-2">
+                            <img src="images/bike-3.png" height="256px" width="
+                            337px" class="card-img-top " alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class=" justify-content-start align-items-center p-3">
+
+                            <button type="button" class="btn honda-btn text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Latest News Section End -->
 
         <!-- Happy Client Section Start -->
         <section class="container">
@@ -106,12 +224,14 @@
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                            <div class="text-center">
+                            <div class="text-center honda-text-color">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
+                            </div>
+                            <div class="text-center mt-2">
                                 <h6>Regina Miles</h6>
                                 <p>Banker</p>
                             </div>
@@ -127,12 +247,14 @@
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                            <div class="text-center">
+                            <div class="text-center honda-text-color">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
+                            </div>
+                            <div class="text-center mt-2">
                                 <h6>Regina Miles</h6>
                                 <p>Banker</p>
                             </div>
@@ -141,18 +263,20 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 py-4 align-items-center">
-                        <img src="images/user-3.jpg" class="card-img-top w-50" alt="">
+                        <img src="images/user-1.png" class="card-img-top w-50" alt="">
                         <div class="card-body">
                             <p class="p-2 card-text">Slate helps you see how
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                            <div class="text-center">
+                            <div class="text-center honda-text-color">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
+                            </div>
+                            <div class="text-center mt-2">
                                 <h6>Regina Miles</h6>
                                 <p>Banker</p>
                             </div>
@@ -252,12 +376,82 @@
 
         <!-- Frequently Asked Questions Section End -->
 
+        <!-- Subscribe -->
+        <section style="height:355px"
+            class="container d-flex justify-content-center align-items-center rounded-3 bg-info my-5">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input class="form-control" type="text" name="" id="" placeholder="Your Email">
+                <br>
+                <button class="honda-btn">SUBMIT</button>
+            </div>
+        </section>
+
+        <!-- asa -->
+        <section class="container">
+            <button class="btn btn-danger mb-5" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="margin-left: 20%;">We value
+                your privacy</button>
+
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                aria-labelledby="offcanvasBottomLabel">
+                <!-- <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-center" id="offcanvasBottomLabel">We value your privacy</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div> -->
+                <div class="row offcanvas-body small ms-5">
+                    <div class="col-lg-3">
+                        <img src="images/okay-logo.JPG" alt="">
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h2>We value your privacy</h2>
+                        <br>
+                        <p>We use cookies to help our website function properly, for analytics, marketing and to
+                            personalise
+                            the content you see. By accepting, you agree to the use of all of these cookies. You can
+                            update
+                            your preferences by clicking the cookie preferences button or at any time by going to our
+                            <u>cookie policy</u>.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 my-5 ps-5">
+                        <button class="bg-danger text-white">Accept</button> <br> <br>
+                        <button class="bg-secondary text-black">Cookie preferences</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
     </main>
     <!-- Website Main Section End -->
 
-    <footer>
+    <!-- Footer Section Start -->
+
+    <footer class="bg-dark p-5 just">
+        <section class="container d-flex justify-content-between">
+            <div>
+                <span class="text-white">Download Now</span> &nbsp &nbsp <span class="text-white">License</span>
+                <br>
+                <p class="text-white">About &nbsp Features &nbsp Pricing &nbsp Careers &nbsp Help &nbsp Privacy Policy
+                </p>
+                <p>© 2020 bike. All rights reserved</p>
+            </div>
+
+            <div>
+                <h6 class="text-white">&nbsp &nbsp Get the App</h6>
+                <img width="130px" height="110px" src="images/play&apps-store.png" alt="">
+            </div>
+
+        </section>
 
     </footer>
+
+    <!-- Footer Section End -->
 
     <!-- Javascript File -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
