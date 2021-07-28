@@ -1,0 +1,20 @@
+Assignment - 3 
+
+1- Navbar Optional
+2- flex er modde bame likha, button r dane chobi add korte hobe.
+3- likhar size kacakaci hote hbe, purchase e click korle
+modal open hobe r purchase related kicu likhte hobe.
+4- ekta heading likhte hbe (dag ta optional)
+5- honda er image grayscale krte hbe css dea (google krte hbe)
+6- latest news part (Optional)
+7- Happy client (double color likha) (regular & onno syle er likha) span dea
+8- icon gulo fontawsem tke nite hbe
+10- faq te accordian use krte hbe
+11- footer (optional)
+12- responsive korte hbe single column e.
+
+BONUS
+
+13- FAQ er nise 2ta section add korte hobe for bonus
+
+
