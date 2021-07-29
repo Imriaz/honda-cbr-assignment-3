@@ -17,3 +17,10 @@ body{
 .img-gray {
     filter: grayscale(100%);
   }
+
+  .cliet-img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
